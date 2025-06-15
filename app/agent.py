@@ -3,7 +3,7 @@ from google.adk.tools.mcp_tool.mcp_toolset import MCPToolset, StdioServerParamet
 from dotenv import load_dotenv
 load_dotenv()
 
-ABSOLUTE_FILE_PATH = "C:\\Users\\Pranav\\OneDrive\\Desktop\\Assignments"
+ABSOLUTE_FILE_PATH = "C:\\Users\\[User_Name]\\[Path]"
 
 root_agent = LlmAgent(
     model='gemini-2.0-flash',
